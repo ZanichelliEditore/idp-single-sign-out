@@ -1,0 +1,19 @@
+{
+  "rabbit": {
+    "host": "xxx.xxx.xxx.xxx",
+    "username": "test",
+    "password": "test"
+  },
+  "queues": [
+    {
+      "name": "queue-name",
+      "applicationName": "application-name",
+      "mysql": {
+        "host": "xxx.xxx.xxx.xxx",
+        "database": "database-name",
+        "username": "root",
+        "password": "root"
+      }
+    }
+  ]
+}
